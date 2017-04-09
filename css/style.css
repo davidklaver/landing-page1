@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+}
+
+.container {
+	background: url(../img/clouds.png) no-repeat;
+	background-size: cover;
+	background-position: right;
+	margin-top: -50px;
+	padding: 0;
+	width: 100vw;
+	height: 90vh;
+	/*position: absolute;
+	top: 4vh;
+	left: 0;*/
+}
+
+.logo {
+	position: absolute;
+	width: 40px;
+	top: 5px;
+	left: 5px;
+}
+
+h1 {
+	position: relative;
+		top: 30px;
+	color: darkblue;
+/*	width: 1200px;
+*/	font-size: 8vw;
+	font-family: 'Coming Soon';
+	margin: 30px 0 0 13%;
+	line-height: 120%;
+	/*text-align: center;*/
+}
+
+p {
+	width: 40vw;
+	color: darkblue;
+	font-family: 'Coming Soon';
+	font-size: 28px;
+	margin: 80px auto;
+	text-align: justify;
+}
+
+span {
+	font-family: 'Mountains of Christmas', sans-serif;
+	color: red;
+	font-size: 9vw;
+	text-shadow: 4px 4px maroon;
+}
+
+
+.toddler {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25vw;
+	min-width: 300px;
+	/*z-index: -1;*/
+}
+
+@media(max-width: 550px) {
+	h1 {
+		top: 70px;
+		/*text-align: center;
+		font-size: 10vw;
+		width: 98%;
+		margin-left: 1%;*/
+	}
+
+	span {
+		text-shadow: none;
+	}
+}
+
+
+@media(max-width: 700px) {
+	.toddler {
+		width: 50%;
+		right: 25%;
+		min-width: 250px;
+	}
+
+	p {
+		width: 70vw;
+		font-size: 22px;
+	}
+}
+
+footer {
+	font-family: 'Coming Soon';
+	color: darkblue;
+	/*font-size: 16px;*/
+	height: 6vh;
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;	
+	position: relative;
+	z-index: 10;
+	/*position: absolute;
+	bottom: 0;*/
+}
